@@ -1223,13 +1223,10 @@ img[rel~="js-lazy"][src^="img/"] {
     padding-bottom: 1.4rem;
 }
 
-/* gallerybox / sec_recruit を常に表示（GitHub Pages 等で JS が動かなくても表示されるように） */
+/* gallerybox / sec_recruit: レイアウト用に visibility のみ確保。opacity/transform は .c-fadeUp → .c-is-fadeUp でアニメーション */
 .gallerybox.c-fadeUp,
 section.sec_recruit.c-fadeUp {
-    opacity: 1 !important;
     visibility: visible !important;
-    transform: translateZ(0);
-    pointer-events: auto;
 }
 section.sec_recruit {
     margin-left: auto;
