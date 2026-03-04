@@ -2011,7 +2011,7 @@ html {
 .gallerybox .total-item-slide {
   position: relative;
   animation: move 30s linear infinite;
-  background: url(../../img/top/img_auto_slide.png) center no-repeat;
+  background: url(../img/top/img_auto_slide.png) center no-repeat;
   background-size: 2660px 351px;
   background-repeat: repeat;
   width: 5320px;
@@ -2041,7 +2041,7 @@ section.sec_recruit .inner {
 .sec_recruit .item {
   display: block;
   position: relative;
-  background: url(../../img/top/img_newgraduate.jpg) center no-repeat;
+  background: url(../img/top/img_newgraduate.jpg) center no-repeat;
   background-size: cover;
   padding: 40px 50px 0;
   width: 100%;
@@ -2053,7 +2053,7 @@ section.sec_recruit .inner {
 .sec_recruit .item2 {
   display: block;
   position: relative;
-  background: url(../../img/top/img_career.jpg) center no-repeat;
+  background: url(../img/top/img_career.jpg) center no-repeat;
   background-size: cover;
   padding: 40px 50px 0;
   width: 100%;
@@ -2064,7 +2064,7 @@ section.sec_recruit .inner {
 }
 @media (max-width: 1023px) {
   .sec_recruit .item {
-    background: url(../../img/top/img_newgraduate_sp.jpg) center no-repeat;
+    background: url(../img/top/img_newgraduate_sp.jpg) center no-repeat;
     background-size: cover;
     padding: 20px 30px 0;
     height: 260px;
@@ -2075,7 +2075,7 @@ section.sec_recruit .inner {
     text-align: left;
   }
   .sec_recruit .item2 {
-    background: url(../../img/top/img_career_sp.jpg) center no-repeat;
+    background: url(../img/top/img_career_sp.jpg) center no-repeat;
     background-size: cover;
     padding: 20px 30px 0;
     height: 260px;
